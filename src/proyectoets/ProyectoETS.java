@@ -251,11 +251,11 @@ public class ProyectoETS{
 		boolean control;
 		//Bucle que mantendrá ejecutándose hasta que el usuario introduzca números
 		do{
-			System.out.println("Introduzca un 1 si quiere crear una nueva cuenta");
-			System.out.println("Introduzca un 2 si quiere ingresar dinero en una cuenta");
-			System.out.println("Introduzca un 3 si quiere realizar un cargo en una cuenta");
-			System.out.println("Introduzca un 4 si quiere ver el estado de una cuenta");
-			System.out.println("Introduzca un 5 si quiere finalizar el programa");
+			System.out.println("Elija la opción 1 si quiere crear una nueva cuenta");
+			System.out.println("Elija la opción 2 si quiere ingresar dinero en una cuenta");
+			System.out.println("Elija la opción 3 si quiere realizar un cargo en una cuenta");
+			System.out.println("Elija la opción 4 si quiere ver el estado de una cuenta");
+			System.out.println("Elija la opción 5 si quiere finalizar el programa");
 			//Bucle que se ejecutará en caso de no introducir una opción contemplada o por introducir un tipo de dato no apto
 			do{
 				control = true;
